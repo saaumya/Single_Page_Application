@@ -1,0 +1,286 @@
+body{
+	width: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'spartan', sans-serif;
+}
+
+
+.sec-margin{
+	margin: 40px 0;
+}
+
+
+.custom-button{
+	  background-color: #F4DFB6;
+      color: black; 
+      border: none; 
+      border-radius: 40px; 
+}
+
+
+
+#hero1{
+		background-image: url("hero.avif");
+		background-position: left;
+}
+.hero{
+
+	height: 90vh;
+	width: 100%;
+	background-position: top 25% right 0;
+	background-size: cover;
+	padding: 0 80px;
+	display: flex;   
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.hero button{
+	background-color: #FF7676;
+	color: black;
+	border: 0;
+	padding: 14px 40px 14px 50px;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: 40px;
+}
+
+svg{
+	background-color: white;
+	border-radius: 15px;
+}
+
+
+
+.left-img img{
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+
+}
+
+.img-circle{
+	border-radius: 50%;
+	width: 350px;
+	height: 350px;
+	background-position: center;
+}
+
+
+
+/*-------------------------hero sec3----------------*/
+.box-body{
+	background-image: url('card_background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+
+.Testi{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+
+
+.custom-badge{
+	background-color: #F1B4BB;
+  color: black; 
+  border-radius: 50%; 
+  padding: 6px 10px;
+}
+/*----------------------img sec---------------------*/
+.doctor-img{
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+}
+
+/*---------------------------service section------------------------*/
+.main-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-container {
+    text-align: center;
+}
+.text-container > p {
+    text-transform: capitalize;
+}
+
+.card-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+
+}
+.oval{
+    width: 250px;
+    height: 450px;
+    padding: 15px;
+    border-radius: 150px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    margin-top: -40px;
+    width: 210px;
+    height: 210px;
+    border-radius: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+.desc {
+    text-align: center;
+}
+
+.oval-box-1 {
+    background-image: linear-gradient(to bottom, rgb(255, 182, 193), rgb(255, 255, 255));
+}
+
+.oval-box-2 {
+    background-image: linear-gradient(to bottom, rgb(173, 216, 230), rgb(255, 255, 255));
+}
+
+.oval-box-3 {
+    background-image: linear-gradient(to bottom, rgb(144, 238, 144), rgb(255, 255, 255));
+}
+
+.oval-box-4 {
+    background-image: linear-gradient(to bottom, rgb(255, 223, 186), rgb(255, 255, 255));
+}
+
+
+/*--------------------*/
+
+
+.box1{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+.img{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero8{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+#hero6{
+	background-image: url("hero6.jpg");
+}
+
+
+
+.Testi .box2{
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #888888;
+	padding: 25px;
+	margin: 15px;
+	background-color: white;
+}
+
+.Testi .box2 .img img{
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+
+}
+
+.testi-clients{
+	/*text-align: left;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.testi-clients img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+
+.image-container {
+  overflow: hidden;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  margin: 0;
+}
+
+.image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+  /*margin-top: 0;*/
+  margin-left: -20px;
+}
+
+
+
+
+#hero8{
+	background-color: #FFF2D8;
+}
+
+
+.custom-card{
+   box-shadow: 5px 5px 10px #888888;
+}
+
+
+.footer-text a{
+	color: black;
+}
+
+.foot{
+	background-color: #FCFDF2;
+}
+
+.custom-google{
+	width: 100px;
+	height: 35px;
+}
+
+.custom-app{
+	width: 100px;
+	height: 25px;
+}
+
+
